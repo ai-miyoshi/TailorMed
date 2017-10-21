@@ -1,0 +1,248 @@
+body
+{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5
+{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+}
+
+h3 {
+    font-size: 22px !important;
+    color: #42b3e5 !important;
+}
+
+p {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.page p {
+    line-height: 2.0em !important;
+    font-size: 16px !important;
+}
+
+.page li {
+    font-size: 16px !important;
+}
+
+.page .news p {
+    line-height: 1.5em !important;
+    font-size: 14px !important;
+}
+
+.page h3.page_margin_top {
+    margin-top: 50px !important;
+}
+
+.bread_crumb li
+{
+	font-size: 13px !important;
+}
+
+.consult-button-wrapper {
+    padding: 20px;
+}
+
+.consult_form .form-error {
+    background: #FFCCCC;
+}
+.error-message {
+    padding-top: 2px;
+    color: #EE4444;
+}
+
+.innerpage {
+    margin-top:20px;
+}
+
+.alert {
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.sf-menu li a, .sf-menu li a:visited {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+    padding: 13px !important;
+}
+
+@media screen and (max-width:1009px)
+{
+	.sf-menu li a, .sf-menu li a:visited
+	{
+        padding: 10px 7px !important;
+	}
+}
+@media screen and (max-width:767px)
+{
+    .comment_form .right, .consult_form .right {
+        margin-left: 0px !important;
+    }
+
+}
+.submenu {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+    font-size: 17px !important
+}
+
+.submenu ul li a {
+    font-size: 14px !important;
+}
+
+.submenu ul {
+    width: 240px !important;
+}
+
+.submenu ul li {
+    width: 210px !important;
+}
+
+.comment_form input, .comment_form textarea,
+.consult_form input, .consult_form textarea
+{
+	border: 1px solid #E0E0E0 !important;
+}
+
+.comment_form .text_input:focus, .comment_form textarea:focus,
+.consult_form .text_input:focus, .consult_form textarea:focus
+{
+	border-color: #42B3E5 !important;
+}
+
+.logo {
+    font-size: 36px;
+}
+
+/* HOME */
+
+.home-links {
+    width: 100%;
+}
+
+.home-links td {
+    text-align: center;
+    width: 50%;
+}
+
+.home-links a {
+    margin: auto;
+    width: 60%;
+    display: inline-block;
+    font-size: 18px !important;
+}
+
+.post_content {
+    width: 100% !important;
+}
+
+.xlarge {
+    padding: 15px 30px;
+}
+
+.subtitle-strong {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.announcements-wrapper {
+    overflow-y: scroll;
+}
+
+.announcements-wrapper .columns {
+    margin-bottom: 20px;
+}
+
+.announcement-date {
+    font-size: 16px;
+    padding-right: 10px;
+		vertical-align: middle;
+		color: #696969
+}
+.colums_title_color {
+	  color: #191970;
+}
+.colums_body {
+
+}
+/* ABOUT */
+
+.about ul {
+    list-style: disc !important;
+    margin-left: 25px;
+    line-height: 2.0em;
+}
+
+/* PRICING */
+.pricing-list {
+    list-style-type: disc !important;
+    margin-left: 20px;
+}
+
+/* RINEN */
+.rinen-list {
+    list-style-type: disc !important;
+    margin-left: 20px;
+    line-height: 2.0em;
+}
+
+/* EXAM FLOW */
+
+.flow ul li {
+    font-size: 16px !important;
+}
+
+.flow-list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: decimal;
+}
+
+.flow-list li{
+    margin-top: 20px;
+}
+
+.flow-table {
+    margin-left: 20px;
+}
+
+.flow-table td:first-child {
+    vertical-align : top !important;
+}
+
+.flow-table td:nth-child(2) > * {
+    vertical-align : middle !important;
+}
+
+.flow ul {
+    list-style: disc !important;
+    margin-left: 25px;
+    line-height: 2.0em;
+}
+
+.flow .sidenotes p {
+    font-size: 16px !important;
+}
+
+/* RESEARCH */
+.research-example {
+    padding: 10px;
+}
+/*greetings*/
+td .msk-info-photo {
+	border: solid 1px blue !important;
+}
